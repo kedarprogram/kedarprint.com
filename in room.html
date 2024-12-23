@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Wi-Fi Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 2em;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 2em;
+      max-width: 400px;
+      margin: 2em auto;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h1 {
+      color: #007BFF;
+    }
+    .info {
+      font-size: 1.2em;
+      margin: 1em 0;
+    }
+    .qr-code {
+      margin: 1.5em 0;
+    }
+    .wifi-link {
+      display: inline-block;
+      background-color: #007BFF;
+      color: #fff;
+      padding: 0.8em 1.5em;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .wifi-link:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Kedar!</h1>
+    <p class="info">
+      <span>Wi-Fi Network:</span> <strong>yagya323195</strong>
+    </p>
+    <p class="info">
+      <span>Wi-Fi Password:</span> <strong id="wifiPassword">yagya@vianet</strong>
+    </p>
+
+    <!-- QR Code for Wi-Fi Network -->
+    <div class="qr-code">
+      <img src="password.png" alt="Wi-Fi QR Code" style="height: 200px; width: 200px;" >
+    </div>
+
+    <!-- Clickable Wi-Fi Link for Android -->
+    <a href="wifi:yagya@vianet;password=yagya323195" class="wifi-link">Connect to Wi-Fi</a>
+  </div>
+
+</body>
+</html>

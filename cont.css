@@ -1,0 +1,82 @@
+header p , h1{
+    width: 50%;
+    margin: auto;
+}
+
+nav{
+    text-align: right;
+    color: #7E22CE;
+
+
+}
+nav .con{
+    text-decoration: underline;
+}
+
+nav span{
+    margin-right: 2vw;
+}
+
+nav span:hover{
+    text-decoration: underline;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: white;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a{
+    color: bisque;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}

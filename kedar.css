@@ -1,0 +1,85 @@
+*:hover{
+    cursor: default;
+}
+body {
+    font-family: "Georgia", serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav{
+    text-align: right;
+    color: #7E22CE;
+
+
+}
+nav .con{
+    text-decoration: underline;
+}
+
+nav span{
+    margin-right: 2vw;
+}
+
+nav span:hover{
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #e1e1e1;
+}
+header h1 {
+    font-family: "Merriweather", serif;
+    font-size: 3em;
+    margin: 0;
+}
+.content {
+    width: 80%;
+    margin: 40px auto;
+}
+.column {
+    display: inline-block;
+    width: 48%;
+    margin-right: 4%;
+}
+.column:last-child {
+    margin-right: 0;
+}
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+.cta button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    background-color: #e1e1e1;
+    padding: 20px;
+}
+.serv:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+.serv{
+    border: 0px solid #f8f8f8;
+    background-color: #f8f8f8;
+}
+
+.content > div > p > span:hover{
+    color: rgb(255, 0, 0);
+}
+.cta button:hover{
+    background-color: white;
+    color: #333;
+}
